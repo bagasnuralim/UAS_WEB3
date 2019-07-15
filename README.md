@@ -15,3 +15,9 @@ POLITEKNIK KOMPUTER BISNIS LPKIA<br>
 KONSENTRASI TEKNIK INFORMATIKA<br>
 BANDUNG<br>
 2019
+
+check on postman 
+cek addbook : http://localhost:3208/book/createbook
+cek updatebook : http://localhost:3208/book/2
+cek deletebook : http://localhost:3208/book/1
+cek readbook : http://localhost:3208/book/
