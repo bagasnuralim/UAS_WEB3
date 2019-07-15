@@ -3,7 +3,10 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('user/index');
+});
+router.get('/admin', (req, res) => {
+    res.render('admin/index');
 });
 
 module.exports = router;

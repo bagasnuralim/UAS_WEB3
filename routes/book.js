@@ -6,7 +6,7 @@ const bookController = require('../controllers/book');
 const penerbitController = require('../controllers/penerbit');
 const kategoriController = require('../controllers/kategori');
 
-router.get('/', bookController.getIndexBook);
+router.get('/', bookController.getAllBook);
 router.post('/createbook', bookController.postBook);
 router.put('/:id', bookController.putBook);
 router.delete('/:id', bookController.deleteBook);

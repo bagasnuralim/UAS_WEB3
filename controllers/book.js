@@ -51,4 +51,13 @@ module.exports.deleteBook = (req, res) => {
         throw error;
     });
 }
+module.exports.getAllBook = (req, res) => {
+    Book.findAll()
+    .then((book) => {
+        res.json(book)
+    });
+}
+module.exports.get = (req, res) => {
+    
+}
 
