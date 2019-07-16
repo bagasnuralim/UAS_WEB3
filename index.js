@@ -14,6 +14,7 @@ app.use(express.static('public'));
 
 const homeRouter = require('./routes/home');
 const bookRouter = require('./routes/book');
+const userRouter = require('./routes/user');
 
 const sequelize = require('./configs/sequelize');
 
@@ -21,11 +22,10 @@ const Book = require('./models/book');
 
 app.use(homeRouter);
 app.use('/book', bookRouter);
+app.use('/user', userRouter);
 
 
 app.listen(3208, () => {
     console.log('server started');
     sequelize.sync();
 })
-
-
