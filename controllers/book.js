@@ -1,7 +1,20 @@
 const Book = require('../models/book');
+const jwt = require('jsonwebtoken');
+const dotenv = require('dotenv');
+dotenv.config();
 
 
 module.exports.getIndexBook = (req, res) => {
+    jwt.verify(req.token, process.env.SECRETKEY, (error, authData)=> {
+        if(error){
+            res.sendStatus(403);
+        }else{
+            res.json({
+                message :"OK",
+                authData : authData
+            })
+        }
+    })
 }
 module.exports.postBook = (req, res) => {
     Book.create({
