@@ -21,3 +21,5 @@ cek addbook : http://localhost:3208/book/createbook
 cek updatebook : http://localhost:3208/book/2
 cek deletebook : http://localhost:3208/book/1
 cek readbook : http://localhost:3208/book/
+cek addregister : http://localhost:3208/user/register
+cek login : http://localhost:3208/user/login
