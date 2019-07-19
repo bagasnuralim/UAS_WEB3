@@ -1,4 +1,7 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('mysql://root:@localhost:3306/bookmarket');
+const sequelize = new Sequelize('bookmarket','root','password',{
+    host: 'localhost',
+    dialect:'mysql'
+});
 
 module.exports = sequelize;

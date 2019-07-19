@@ -1,25 +1,43 @@
-UJIAN AKHIR SEMESTER <br>
-PRAKTEK PEMROGRAMAN WEB 3
+# UJIAN AKHIR SEMESTER #  
+# PRAKTEK PEMROGRAMAN WEB 3 #
 
 
 
-Disusun Oleh :
+## Disusun Oleh :
+
 1. Bagas Nuralim - 160613012
 2. Hanif Ibrahim - 161014073
 
 
-Kelas : 3IF-02
+##IP Address
+
+```
+159.89.194.18:3208
+```
 
 
-POLITEKNIK KOMPUTER BISNIS LPKIA<br>
-KONSENTRASI TEKNIK INFORMATIKA<br>
-BANDUNG<br>
-2019
+## admin
+```
+cek addbook : http://159.89.194.18:3208/book/createbook
+cek updatebook : http://159.89.194.18:3208/book/2
+cek deletebook : http://159.89.194.18:3208/book/1
+```
+##user 
+```
+cek readbook : http://159.89.194.18:3208/book/viewsallbook 
+cek readOnebook : http://159.89.194.18:3208/book/view/1
+```
+##login
+```
+cek login : http://159.89.194.18:3208/user/login
+```
+##Register
+```
+cek addregister : http://159.89.194.18:3208/user/register
+```
 
-check on postman 
-cek addbook : http://localhost:3208/book/createbook
-cek updatebook : http://localhost:3208/book/2
-cek deletebook : http://localhost:3208/book/1
-cek readbook : http://localhost:3208/book/
-cek addregister : http://localhost:3208/user/register
-cek login : http://localhost:3208/user/login
+##login
+```
+email : bagas@gmail.com
+pass : 12345
+```
